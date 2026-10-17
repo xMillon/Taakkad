@@ -1,0 +1,22 @@
+:root {
+    --blue: #133C66;
+    --gold: #FAAC3B;
+    --bg: #FAF8F3;
+    --text: #1B2129;
+    --line: #E6E3DB;
+}
+
+body {
+    background: var(--bg);
+    color: var(--text);
+    font-family: 'IBM Plex Sans Arabic', sans-serif;
+    margin: 0;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 24px;
+    border-bottom: 1px solid var(--line);
+}
