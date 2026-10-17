@@ -4,6 +4,7 @@
     --bg: #FAF8F3;
     --text: #1B2129;
     --line: #E6E3DB;
+    --muted: #5B636B;
 }
 
 body {
@@ -37,4 +38,22 @@ header {
     border: 1px solid var(--line);
     border-radius: 999px;
     padding: 6px 12px;
+}
+
+.hero {
+    max-width: 1120px;
+    margin: 0 auto;
+    padding: 72px 24px 48px;
+}
+
+.hero h1 {
+    margin: 0;
+    font-size: 48px;
+    color: var(--blue);
+}
+
+.hero p {
+    margin: 12px 0 0;
+    font-size: 18px;
+    color: var(--muted);
 }
