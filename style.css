@@ -26,10 +26,12 @@ header {
 }
 
 .logo {
-    color: var(--blue);
-    font-size: 26px;
-    font-weight: 700;
     text-decoration: none;
+}
+
+.logo img {
+    height: 36px;
+    display: block;
 }
 
 .badge {
@@ -124,6 +126,7 @@ header {
     font-size: 12px;
     color: var(--muted);
 }
+
 /* === FOOTER === */
 footer {
     text-align: center;
