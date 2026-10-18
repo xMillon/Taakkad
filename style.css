@@ -5,6 +5,7 @@
     --text: #1B2129;
     --line: #E6E3DB;
     --muted: #5B636B;
+    --card: #FFFFFF;
 }
 
 body {
@@ -55,5 +56,68 @@ header {
 .hero p {
     margin: 12px 0 0;
     font-size: 18px;
+    color: var(--muted);
+}
+
+.list {
+    max-width: 1120px;
+    margin: 0 auto;
+    padding: 0 24px 64px;
+}
+
+.card {
+    background: var(--card);
+    border: 1px solid var(--line);
+    border-radius: 20px;
+    padding: 24px;
+}
+
+.card h2 {
+    margin: 0;
+    font-size: 20px;
+}
+
+.category {
+    margin: 4px 0 16px;
+    font-size: 13px;
+    color: var(--muted);
+}
+
+.links {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.links li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: var(--bg);
+    padding: 10px 14px;
+    border-radius: 12px;
+}
+
+.links span {
+    font-size: 13px;
+    color: var(--muted);
+}
+
+.links a {
+    color: var(--blue);
+    font-weight: 500;
+    text-decoration: none;
+    direction: ltr;
+    unicode-bidi: isolate;
+}
+
+.checked {
+    margin: 16px 0 0;
+    padding-top: 12px;
+    border-top: 1px solid var(--line);
+    font-size: 12px;
     color: var(--muted);
 }
