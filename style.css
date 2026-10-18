@@ -63,6 +63,9 @@ header {
     max-width: 1120px;
     margin: 0 auto;
     padding: 0 24px 64px;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 20px;
 }
 
 .card {
